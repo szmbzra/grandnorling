@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Grand Norling">
+    <title>Grand Norling</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="grand_assets/image/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="grand_assets/image/fav.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+
+<body class="datepicker_mobile_full">
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <!-- header  -->
+    <div class="header_wrapper">
+        <header class="reveal_header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <a href="index.html" class="logo_normal"><img src="grand_assets/image/logo.png" width="160"
+                                alt=""></a>
+                        <a href="index.html" class="logo_sticky"><img src="grand_assets/image/logo.png" width="80"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="hamburger_2 open_close_nav_panel">
+                                        <div class="hamburger__box">
+                                            <div class="hamburger__inner"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- floating book now -->
+            <a href="https://www.norlingresort.com/result.php?hotel_code=FeNRk5" id="book__now" class="btn_1 btn_scrollto" target="_blank">Book a room</a>
+            <a href="https://www.norlingresort.com/booking" id="book__now_1" class="btn_1 btn_scrollto" target="_blank">Book a hall</a>
+            <!-- floating book now end -->
+        </header>
+        <!-- header  end -->
+        <div class="nav_panel">
+            <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+            <div class="logo_panel"><img src="grand_assets/image/logo.png" width="80" alt=""></div>
+            <div class="sidebar-navigation">
+                <nav>
+                    <a href="">Home</a>
+                    <ul class="level-1">
+                        <li class="parents"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="parent"><a href="#">Stay</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#0">Back</a></li>
+                                <li><a href="cottage.html">Cottage Room</a></li>
+                                <li><a href="standard.html">Standard Room</a></li>
+                                <li><a href="deluxe.html">Deluxe Room</a></li>
+                                <li><a href="suite.html">Suite Room</a></li>
+                                <li><a href="luxury.html">Luxury Suite Room</a></li>
+                                <li><a href="stay.html">View All Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="dine.html">Dine</a></li>
+                        <li class="parent"><a href="#">Meeting & Events</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#">Back</a></li>
+                                <li><a href="tara.html">Tara Hall</a></li>
+                                <li><a href="norling.html">Norling Hall</a></li>
+                                <li><a href="ganesh.html">Ganesh Hall</a></li>
+                                <li><a href="rose.html">Rose Garden</a></li>
+                                <li><a href="metho.html">Metho Garden</a></li>
+                                <li><a href="meetinglisting.html">View All Halls</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                    <div class="panel_footer">
+                        <div class="phone_element"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977-01-4910296</span></a></div>
+                    </div>
+                    <!-- /panel_footer -->
+                </nav>
+            </div>
+            <!-- /sidebar-navigation -->
+        </div>
+    </div>
+
+    <main>
+        <div id="carousel-home">
+            <div class="owl-carousel owl-theme kenburns">
+                <div class="owl-slide background-image cover" data-background="url(grand_assets/image/banner/rose.jpg)">
+                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                    </div>
+                </div>
+                <!--/owl-slide-->
+                <div class="owl-slide background-image cover" data-background="url(grand_assets/image/banner/rose2.jpg)">
+                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                    </div>
+                </div>
+                <!--/owl-slide-->
+                <div class="owl-slide background-image cover" data-background="url(grand_assets/image/banner/rose3.jpg)">
+                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                    </div>
+                    <!--/owl-slide-->
+                </div>
+            </div>
+            <div class="mouse_wp">
+                <a href="#first_section" class="btn_scrollto">
+                    <div class="mouse"></div>
+                </a>
+            </div>
+            <!-- / mouse -->
+             <!-- text title -->
+             <h1 class="owl-slide-animated owl-slide-title-2  meeting_halls text-uppercase">Rose Garden
+            </h1>
+             <!-- text title end -->
+        </div>
+        <!--/carousel-->
+
+        <div class="bg_white" id="first_section">
+            <div class="container margin_120_95">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 ">
+
+                        <p class="lh-lg">Welcome to Rose Garden, a stunning venue where elegance meets versatility for your special events. Designed to accommodate a variety of setups, this picturesque space creates a captivating atmosphere for any celebration. With its expansive layout and adaptable features, Rose Garden is perfect for transforming your occasion into an unforgettable experience. Set against a breathtaking backdrop, your event will leave a lasting impression.
+
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="room_facilities_list">
+                            <ul data-cues="slideInLeft">
+<li><img src="grand_assets/hall/icons/filp.png" alt=""><p>Flip Chart</p></li>
+<li><img src="grand_assets/hall/icons/mikes.png" alt=""><p>Mikes</p></li>
+<li><img src="grand_assets/hall/icons/paper.png" alt=""><p>Paper & Pencils</p></li>
+<li><img src="grand_assets/hall/icons/podium.png" alt=""><p>Podium</p></li>
+<li><img src="grand_assets/hall/icons/water.png" alt=""><p>Water Bottles</p></li>
+<li><img src="grand_assets/hall/icons/whiteboard.png" alt=""><p>White Board</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-5">
+                        <h5 class="my-5 text-center">Setup Style and Occupancy</h5>
+                        <div class="table-responsive d-lg-none">
+                            <table class="table table-bordered meeting_events">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">
+                                            Hall Size </th>
+                                        <th scope="col">
+                                            U Shape</th>
+                                        <th scope="col">
+                                            Classroom</th>
+                                        <th scope="col">
+                                            Theatre</th>
+                                        <th scope="col">
+                                            Round Table</th>
+                                        <th scope="col">
+                                           Cocktail</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            3500 sq. ft.</td>
+                                        <td>
+                                            100</td>
+                                        <td>
+                                            200</td>
+                                        <td>
+                                            350</td>
+                                        <td>
+                                            200</td>
+                                        <td>
+                                            500</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- flip -->
+                        <div class="card_flips">
+                            <div class="d-flex justify-content-evenly mt-5">
+                                <div class="card">
+                                <div class="card-inner">
+                                  <div class="card-front">
+                                    <p>350 Sq.ft</p>
+                                  </div>
+                                  <div class="card-back">
+                                    <p>Hall size</p>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="card">
+                                <div class="card-inner">
+                                  <div class="card-front">
+                                    <p>100 Pax</p>
+                                  </div>
+                                  <div class="card-back">
+                                    <p>U Shape</p>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="card">
+                                <div class="card-inner">
+                                  <div class="card-front">
+                                    <p>200 Pax</p>
+                                  </div>
+                                  <div class="card-back">
+                                    <p>Classroom</p>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="card">
+                                <div class="card-inner">
+                                  <div class="card-front">
+                                    <p>350 Pax</p>
+                                  </div>
+                                  <div class="card-back">
+                                    <p>Theatre</p>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="card">
+                                <div class="card-inner">
+                                  <div class="card-front">
+                                    <p>200 Pax</p>
+                                  </div>
+                                  <div class="card-back">
+                                    <p>Round <br> Table</p>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="card">
+                                <div class="card-inner">
+                                  <div class="card-front">
+                                    <p>500 Pax</p>
+                                  </div>
+                                  <div class="card-back">
+                                    <p>Cocktail</p>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                        </div>
+                        <!-- flip -->
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <!-- Button trigger modal -->
+<div class="col-md-12 text-center mt-5 mb-5">
+  <!-- Button trigger modal -->
+  <a href="https://www.norlingresort.com/booking" class="btn_4 learn-more btn_scrollto" target="_blank">
+    <span class="circle">
+        <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">&nbsp;Inquiry Now</span>
+</a>
+</div>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <div class="isotope-wrapper">
+                            <div class="row justify-content-center">
+                                <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
+                                    <div class="item-img" data-cue="slideInUp">
+                                        <img src="grand_assets/image/masonry/portrait/rosegarden.jpg" alt="" />
+                                        <div class="content">
+                                            <a  data-fslightbox="gallery_1" data-type="image" href="grand_assets/image/masonry/portrait/rosegarden.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
+                                    <div class="item-img" data-cue="slideInUp">
+                                        <img src="grand_assets/image/masonry/landscape/rosegarden.jpg" alt="" />
+                                        <div class="content">
+                                            <a  data-fslightbox="gallery_1" data-type="image" href="grand_assets/image/masonry/landscape/rosegarden.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
+                                    <div class="item-img" data-cue="slideInUp">
+                                        <img src="grand_assets/image/masonry/portrait/rosegarden2.jpg" alt="" />
+                                        <div class="content">
+                                            <a  data-fslightbox="gallery_1" data-type="image" href="grand_assets/image/masonry/portrait/rosegarden2.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
+                                    <div class="item-img" data-cue="slideInUp">
+                                        <img src="grand_assets/image/masonry/landscape/rosegarden2.jpg" alt="" />
+                                        <div class="content">
+                                            <a  data-fslightbox="gallery_1" data-type="image" href="grand_assets/image/masonry/landscape/rosegarden2.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--/row -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+      <!-- /container -->
+
+    </main>
+
+
+    <footer class="revealed footer_wrapper">
+        <!-- ajax load -->
+    </footer>
+    <div class="whats_app">
+        <a href="https://wa.me/+977-9801121560" target="_blank" class="whatsapp">
+            <i class="fa fa-whatsapp fa-2x"> </i>
+            </a>
+     </div>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+
+<!-- COMMON SCRIPTS -->
+<script src="js/common_scripts.js"></script>
+<script src="js/common_functions.js"></script>
+<script src="phpmailer/validate.js"></script>
+
+<!-- SPECIFIC SCRIPTS -->
+<script src="js/slider.js"></script>
+</body>
+</html>

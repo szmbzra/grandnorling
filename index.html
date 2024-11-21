@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Grand Norling">
+    <title>Grand Norling</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="grand_assets/image/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="grand_assets/image/fav.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-zoom.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+
+<body class="datepicker_mobile_full">
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <!-- header  -->
+    <div class="header_wrapper">
+        <header class="reveal_header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <a href="index.html" class="logo_normal"><img src="grand_assets/image/logo.png" width="160"
+                                alt=""></a>
+                        <a href="index.html" class="logo_sticky"><img src="grand_assets/image/logo.png" width="80"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="hamburger_2 open_close_nav_panel">
+                                        <div class="hamburger__box">
+                                            <div class="hamburger__inner"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- floating book now -->
+            <a href="https://www.norlingresort.com/result.php?hotel_code=FeNRk5" id="book__now" class="btn_1 btn_scrollto" target="_blank">Book a room</a>
+            <a href="https://www.norlingresort.com/booking" id="book__now_1" class="btn_1 btn_scrollto" target="_blank">Book a hall</a>
+            <!-- floating book now end -->
+        </header>
+        <!-- header  end -->
+        <div class="nav_panel">
+            <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+            <div class="logo_panel"><img src="grand_assets/image/logo.png" width="80" alt=""></div>
+            <div class="sidebar-navigation">
+                <nav>
+                    <a href="">Home</a>
+                    <ul class="level-1">
+                        <li class="parents"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="parent"><a href="#">Stay</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#0">Back</a></li>
+                                <li><a href="cottage.html">Cottage Room</a></li>
+                                <li><a href="standard.html">Standard Room</a></li>
+                                <li><a href="deluxe.html">Deluxe Room</a></li>
+                                <li><a href="suite.html">Suite Room</a></li>
+                                <li><a href="luxury.html">Luxury Suite Room</a></li>
+                                <li><a href="stay.html">View All Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="dine.html">Dine</a></li>
+                        <li class="parent"><a href="#">Meeting & Events</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#">Back</a></li>
+                                <li><a href="tara.html">Tara Hall</a></li>
+                                <li><a href="norling.html">Norling Hall</a></li>
+                                <li><a href="ganesh.html">Ganesh Hall</a></li>
+                                <li><a href="rose.html">Rose Garden</a></li>
+                                <li><a href="metho.html">Metho Garden</a></li>
+                                <li><a href="meetinglisting.html">View All Halls</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                    <div class="panel_footer">
+                        <div class="phone_element"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977-01-4910296</span></a></div>
+                    </div>
+                    <!-- /panel_footer -->
+                </nav>
+            </div>
+            <!-- /sidebar-navigation -->
+        </div>
+    </div>
+    <main>
+        <div class="hero full-height jarallax homepage_video"
+            data-jarallax-video="mp4:grand_assets/grand.mp4"
+            data-speed="0.2">
+            <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero">
+                <div class="mouse_wp slide-animated four">
+                    <a href="#first_section" class="btn_scrollto">
+                        <div class="mouse"></div>
+                    </a>
+                </div>
+                <!-- /mouse_wp -->
+            </div>
+            <!-- book now -->
+            <div class="book_now">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+   <form action="result.php" method="GET" target="_blank" >
+    <input type="hidden" name="hotel_code" value="FeNRk5">
+    <div class="row g-0 booking_form">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <input class="form-control" type="text" id="checkin" name="hotel_check_in"
+                    placeholder="Check in" readonly="readonly">
+                <i class="bi bi-calendar2"></i>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="form-group">
+                <input class="form-control" type="text" id="checkout" name="hotel_check_out"
+                    placeholder="Check Out" readonly="readonly">
+                <i class="bi bi-calendar2"></i>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <input type="submit" class="btn_search" value="Check Availability">
+        </div>
+    </div>
+   </form>
+                    </div>
+                </div>
+            </div>
+            <!-- book now end -->
+        </div>
+        <!-- /jarallax video background -->
+
+
+
+        <div class="about_us_margin bg-white py-4 mt-0 pattern_design" id="first_section">
+            <div class="container">
+                <div class="about_us_section">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-center">
+                            <div class="box_item_info title" data-jarallax-element="-30">
+                                <small>About us</small>
+                                <h2>Grand Norling Hotel's Resort</h2>
+                                <p class="about_us_text">
+                                    Experience an enchanting escape at Grand Norling Resort, perfectly situated in the heart of Nepal’s vibrant cultural landscape. Our resort is just moments away from iconic UNESCO World Heritage Sites, including the sacred Bajrayogini Temple, the legendary Boudhanath Stupa, and the revered Pashupatinath Temple. Immerse yourself in a unique blend of luxury and rich heritage, whether you seek relaxation or adventure. Enjoy lavish accommodations and exceptional dining while surrounded by breathtaking views. Grand Norling is the perfect venue for unforgettable events, where indulgence meets the natural beauty of Nepal. Discover a haven of serenity and culture that promises a truly opulent experience. Your unforgettable journey begins here.</p>
+                                <div class="box_item_footer">
+                                    <a href="about.html" class="btn_4 learn-more btn_scrollto">
+                                        <span class="circle">
+                                            <span class="icon arrow"></span>
+                                        </span>
+                                        <span class="button-text">&nbsp;&nbsp;Read More</span>
+                                    </a>
+                                </div>
+                                <!-- /box_item_footer -->
+                            </div>
+                            <!-- /box_item_info -->
+                        </div>
+                        <!-- /col -->
+                    </div>
+
+                    <div class="row_list_version_1">
+                        <div class="pinned-image rounded_container pinned-image--medium">
+                            <div class="pinned-image__container">
+                                <div class="parallax_wrapper">
+                                    <img src="grand_assets/image/pic.jpg" alt="" class="img-fluid rounded-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /Row -->
+            <!-- /pinned content -->
+        </div>
+        <!-- room section -->
+        <div class="room_listing mt-5 pb-5">
+            <div class="container">
+                <div class="title mb-3">
+                    <small data-cue="slideInUp">Into Memories For Our Guests</small>
+                    <h2 data-cue="slideInUp" data-delay="200">Rooms & Suites</h2>
+                </div>
+                <div class="row justify-content-center" data-cues="slideInUp" data-delay="300">
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <a href="cottage.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image"
+                                    data-background="url(grand_assets/image/rooms/cottage.jpg)"></div>
+                                <div class="info">
+                                    <small>From $250/night</small>
+                                    <h3>Cottage Room</h3>
+                             <span>Explore more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                        <a href="standard.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image"
+                                    data-background="url(grand_assets/image/rooms/standard.jpg)"></div>
+                                <div class="info">
+                                    <small>From $80/night</small>
+                                    <h3>Standard Room</h3>
+                                    <span>Explore more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                        <a href="deluxe.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image"
+                                    data-background="url(grand_assets/image/rooms/deluxe.jpg)"></div>
+                                <div class="info">
+                                    <small>From $ 100/night</small>
+                                    <h3>Deluxe Room</h3>
+                                    <span>Read more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <!-- view all rooms -->
+                    <div class="view_all__rooms">
+                        <a href="stay.html" class="btn_4 learn-more btn_scrollto">
+                            <span class="circle">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">&ensp; View all rooms</span>
+                        </a>
+                    </div>
+                    <!-- view all rooms button -->
+                </div>
+            </div>
+        </div>
+        <!-- room section end -->
+        <!-- activities -->
+        <div class="other_activities bg-white py-1 pattern_design">
+            <div class="container margin_120_95">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 fixed_title">
+                        <div class="title">
+                            <small data-cue="slideInUp">Ultimate Experience</small>
+                            <h2>Hotel Highlights</h2>
+                            <p class=" base lh-lg">Grand Norling is a true reflection of Nepal’s vibrant cultural heritage, providing a sanctuary that celebrates the sacred history and spiritual depth of the region. Immerse yourself in an atmosphere that honors tradition while offering modern comforts. Experience a unique blend of heritage and hospitality at our stunning resort.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row_list_version_3" data-cue="fadeIn">
+                            <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                                <div class="item">
+                                    <a href="#"><img src="grand_assets/image/activities/shimp1.jpg" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="grand_assets/image/activities/shimp2.jpg" alt=""></a>
+                                </div>
+
+                            </div>
+                            <!-- /carousel -->
+                            <div class="box_item_info" data-jarallax-element="-30">
+                                <a href="dine.html#shimpo__restaurant"><h2>Shimpo Restaurant</h2></a>
+                                <p>Embark on a culinary journey at Shimpo Restaurant, where every dish is a celebration of flavor and artistry. Our spacious dining hall welcomes gatherings of all sizes, offering an unforgettable setting for friends and family. Savor a fusion of Nepali, Tibetan, Western, Indian, and local cuisines, skillfully crafted by our expert chefs. At Shimpo, tradition meets innovation in every bite. Join us for a dining experience that delights the senses and warms the soul.
+                                </p>
+                                <!-- view more -->
+                                <a href="dine.html#shimpo__restaurant" class="btn_4 learn-more btn_scrollto">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">&nbsp;&nbsp;View more</span>
+                                </a>
+                                <!-- view more end -->
+                            </div>
+                        </div>
+                        <div class="row_list_version_3" data-cue="fadeIn">
+                            <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                                <div class="item">
+                                    <a href="#"><img src="grand_assets/image/activities/dustin1.jpg" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="grand_assets/image/activities/dustin2.jpg" alt=""></a>
+                                </div>
+
+                            </div>
+                            <!-- /carousel -->
+                            <div class="box_item_info" data-jarallax-element="-30">
+                                <a href="dine.html#dusti__bar"><h2>Dutsi Bar</h2></a>
+                                <p>Welcome to Dutsi Bar at Grand Norling Hotel’s Resort, your cozy retreat for relaxation and refreshment. Here, you'll find an impressive selection of local and international beverages, perfect for unwinding after a day of exploration. The inviting atmosphere makes it an ideal place to enjoy quality time with friends or simply savor a quiet moment. Let the soothing ambiance envelop you as you indulge in expertly crafted drinks.
+                                </p>
+                                <!-- view more -->
+                                <a href="dine.html#dusti__bar" class="btn_4 learn-more btn_scrollto">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">&nbsp;&nbsp;View more</span>
+                                </a>
+                                <!-- view more end -->
+                            </div>
+                        </div>
+                        <div class="row_list_version_3" data-cue="fadeIn">
+                            <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                                <div class="item">
+                                    <a href="#"><img src="grand_assets/image/activities/hall1.jpg" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="grand_assets/image/activities/hall2.jpg" alt=""></a>
+                                </div>
+
+                            </div>
+                            <!-- /carousel -->
+                            <div class="box_item_info" data-jarallax-element="-30">
+                                <a href="meetinglisting.html">
+                                    <h2>Meeting & Events</h2>
+                                </a>
+                                <p>From intimate gatherings to grand celebrations, our versatile venues are designed to
+                                    cater to your unique needs, providing a perfect setting for successful meetings and
+                                    events.
+                                </p>
+                                <!-- view more -->
+                                <a href="meetinglisting.html" class="btn_4 learn-more btn_scrollto">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">&nbsp;&nbsp;View more</span>
+                                </a>
+                                <!-- view more end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- activities end -->
+        <!-- facilities -->
+        <div class="facilties_wrapper pt-5">
+            <div class="container">
+                <div class="title text-center mb-5">
+                    <small data-cue="slideInUp">Personalized Hospitality</small>
+                    <h2 data-cue="slideInUp" data-delay="100">Facilities and Services</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box_facilities no-border" data-cue="slideInUp">
+                            <div class="facilities__icons facilities_img_icon">
+                                <!-- <i class="fa fa-wifi"></i> -->
+                                <img src="grand_assets/icons/wifi.png" alt="">
+                            </div>
+                            <div class="facilities_text">
+                                <h3>Event Management</h3>
+                                <p>We plan, organize, and execute events like conferences, weddings, and
+                                    entertainment-oriented events.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box_facilities no-border" data-cue="slideInUp">
+                            <div class="facilities__icons facilities_img_icon">
+                                <img src="grand_assets/icons/accommodation.png" alt="">
+                            </div>
+                            <div class="facilities_text">
+                                <h3>Accommodation</h3>
+                                <p>A cozy room featuring simple artwork hangs on the walls, creating a calm, inviting
+                                    atmosphere.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box_facilities no-border" data-cue="slideInUp">
+                            <div class="facilities__icons facilities_img_icon">
+                                <img src="grand_assets/icons/gold.png" alt="">
+                            </div>
+                            <div class="facilities_text">
+                                <h3>Golf course view</h3>
+                                <p>A golf course view offers a peaceful, expansive atmosphere perfect for relaxation and
+                                    enjoying nature.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box_facilities no-border" data-cue="slideInUp">
+                            <div class="facilities__icons facilities_img_icon">
+                                <img src="grand_assets/icons/restaurant.png" alt="">
+                            </div>
+                            <div class="facilities_text">
+                                <h3>Restaurant & Bar</h3>
+                                <p>Our restaurant and bar features elegant tables, soft lighting, and contemporary
+                                    décor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box_facilities no-border" data-cue="slideInUp">
+                            <div class="facilities__icons facilities_img_icon">
+                                <img src="grand_assets/icons/cctv.png" alt="">
+                            </div>
+                            <div class="facilities_text">
+                                <h3>CCTV Security</h3>
+                                <p>The hotel is equipped with a state-of-the-art CCTV security system for high security
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box_facilities no-border" data-cue="slideInUp">
+                            <div class="facilities__icons facilities_img_icon">
+                                <img src="grand_assets/icons/travel.png" alt="">
+                            </div>
+                            <div class="facilities_text">
+                                <h3>Travel Desk</h3>
+                                <p>Tailored services are available to meet individual needs, whether for business or
+                                    leisure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- facilities  end-->
+
+        <!-- our gallery -->
+        <div class="our_gallery">
+            <div class="container margin_60_0 title">
+                <div class="mb-4 text-center">
+                    <small data-cue="slideInUp">Beautiful Glimpses</small>
+                    <h2 data-cue="slideInUp" data-delay="200">Photo Gallery</h2>
+                </div>
+                <div data-cues="zoomIn" data-delay="200">
+                    <div class="owl-carousel owl-theme carousel_item_centered_rooms rounded-img" id="lightgallery">
+                        <div class="item">
+                            <a href="grand_assets/gallery/1.jpg" class="box_cat_rooms">
+                                <figure>
+                                    <img src="grand_assets/gallery/1.jpg" alt="gallery">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- /item-->
+                        <div class="item">
+                            <a href="grand_assets/gallery/2.jpg" class="box_cat_rooms">
+                                <figure>
+                                    <img src="grand_assets/gallery/2.jpg" alt="gallery">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- /item-->
+                        <div class="item">
+                            <a href="grand_assets/gallery/3.jpg" class="box_cat_rooms">
+                                <figure>
+                                    <img src="grand_assets/gallery/3.jpg" alt="gallery">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- /item-->
+                        <div class="item">
+                            <a href="grand_assets/gallery/4.jpg" class="box_cat_rooms">
+                                <figure>
+                                    <img src="grand_assets/gallery/4.jpg" alt="gallery">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- /item-->
+                    </div>
+                    <!-- /carousel-->
+                </div>
+            </div>
+        </div>
+        <!-- our gallery end -->
+
+
+        <div class="pb-5 testimonials_wrapper">
+            <div class="parallax_section_1 jarallax" data-jarallax data-speed="0.2">
+                <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center">
+                    <div class="container mt-5">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="title white">
+                                    <small data-cue="slideInUp">Testimonials</small>
+                                    <h2 class="text-black">Our Guest Experience's</h2>
+                                </div>
+                                <div class="carousel_testimonials owl-carousel owl-theme nav-dots-orizontal">
+                                    <div>
+                                        <div class="box_overlay">
+                                            <div class="pic">
+                                                <figure><img src="grand_assets/testimonials/google.png" alt=""
+                                                        class="img-circle">
+                                                </figure>
+                                                <span class="person_info">
+                                                    <h6>Neesa Rai</h6>
+                                                    <small><em>Posted: 19/05/2021</em> Nepal</small>
+                                                </span>
+                                            </div>
+                                            <p class="mb-0 mt-4 px-3 text-black-50 fw-semibold text-start">Great Hospitality and caring</p>
+                                            <div class="comment">
+                                                "We made the best decision that we chose this place for our special
+                                                day.We really had a great experience with Grand Norling hotel and
+                                                resort.We loved everything about the hotel ,the ambiance, the
+                                                hospitality, the atmosphere the best. We would really like to thank Mr
+                                                Sunil Kapali Sir who helped us through our journey.He is very kind,
+                                                humble and dedicated person.
+                                                Thank you so much to the Grand Norling team.."
+                                            </div>
+                                            <div class="star_rating">
+                                                <div class="star__ratings">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="bottom_text">
+                                                    <small>via</small><br>
+                                                    <a href="https://www.google.com/travel/search?q=grand%20norling&g2lb=4814050%2C4874190%2C4893075%2C4965990%2C4969803%2C72277293%2C72302247%2C72317059%2C72406588%2C72414906%2C72421566%2C72471280%2C72472051%2C72473841%2C72481459%2C72485658%2C72499705%2C72602734%2C72614662%2C72616120%2C72619927%2C72640790%2C72647020%2C72648289%2C72658035%2C72671093%2C72686036%2C72729615%2C72749221%2C72757849%2C72760082%2C72766791%2C72783135&hl=en-NP&gl=np&cs=1&ssta=1&ts=CAEaRwopEicyJTB4MzllYjFiYTY4MDYyNTBmOToweGYwNGYyZDNkY2NjMzNhNzYSGhIUCgcI6A8QChgcEgcI6A8QChgdGAEyAhAA&qs=CAEyFENnc0k5dlNNNXR5bnk2ZndBUkFCOAJCCQl2OsPMPS1P8EIJCXY6w8w9LU_w&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwiwyIuBgbGJAxUAAAAAHQAAAAAQBQ" target="_blank">
+                                                        <h6>Google Review</h6>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="box_overlay">
+                                            <div class="pic">
+                                                <figure><img src="grand_assets/testimonials/google.png" alt=""
+                                                        class="img-circle">
+                                                </figure>
+                                                <span class="person_info">
+                                                    <h6>Shubekshya Kharel</h6>
+                                                    <small><em>Posted: 19/05/2021</em> Nepal</small>
+                                                </span>
+                                            </div>
+                                            <p class="mb-0 mt-4 px-3 text-black-50 fw-semibold text-start">Great Hospitality and caring</p>
+                                            <div class="comment">
+                                                "Norling is a true sanctuary for tranquility and serenity. The resort's
+                                                lush gardens and surroundings are simply breathtaking. Also their
+                                                hospitality is unparalleled. Stunning greenery, and a serene ambiance,
+                                                highly recommended!
+                                                "
+                                            </div>
+                                            <div class="star_rating">
+                                                <div class="star__ratings">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="bottom_text">
+                                                    <small>via</small><br>
+                                                    <a href="https://www.google.com/travel/search?q=grand%20norling&g2lb=4814050%2C4874190%2C4893075%2C4965990%2C4969803%2C72277293%2C72302247%2C72317059%2C72406588%2C72414906%2C72421566%2C72471280%2C72472051%2C72473841%2C72481459%2C72485658%2C72499705%2C72602734%2C72614662%2C72616120%2C72619927%2C72640790%2C72647020%2C72648289%2C72658035%2C72671093%2C72686036%2C72729615%2C72749221%2C72757849%2C72760082%2C72766791%2C72783135&hl=en-NP&gl=np&cs=1&ssta=1&ts=CAEaRwopEicyJTB4MzllYjFiYTY4MDYyNTBmOToweGYwNGYyZDNkY2NjMzNhNzYSGhIUCgcI6A8QChgcEgcI6A8QChgdGAEyAhAA&qs=CAEyFENnc0k5dlNNNXR5bnk2ZndBUkFCOAJCCQl2OsPMPS1P8EIJCXY6w8w9LU_w&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwiwyIuBgbGJAxUAAAAAHQAAAAAQBQ" target="_blank">
+                                                        <h6>Google Review</h6>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="box_overlay">
+                                            <div class="pic">
+                                                <figure><img src="grand_assets/testimonials/google.png" alt=""
+                                                        class="img-circle">
+                                                </figure>
+                                                <span class="person_info">
+                                                    <h6>Sarju Shrestha</h6>
+                                                    <small><em>Posted: 19/05/2021</em> Nepal</small>
+                                                </span>
+                                            </div>
+                                            <p class="mb-0 mt-4 px-3 text-black-50 fw-semibold text-start">Great Hospitality and caring</p>
+                                            <div class="comment">
+                                                "On January 1st, 2024, we had our engagement ceremony, Me and my husband
+                                                want to extend a special thank you to Mr. Gyandeep Giri and the entire
+                                                Norling family for their invaluable help on our big day. Gyandeep Dai
+                                                assisted us throughout the planning process, including the decorations,
+                                                making everything go smoothly! We are truly grateful for their support
+                                                and glad we chose them to be a part of our celebration thank you again!
+                                                "
+                                            </div>
+                                            <div class="star_rating">
+                                                <div class="star__ratings">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="bottom_text">
+                                                    <small>via</small><br>
+                                                    <a href="https://www.google.com/travel/search?q=grand%20norling&g2lb=4814050%2C4874190%2C4893075%2C4965990%2C4969803%2C72277293%2C72302247%2C72317059%2C72406588%2C72414906%2C72421566%2C72471280%2C72472051%2C72473841%2C72481459%2C72485658%2C72499705%2C72602734%2C72614662%2C72616120%2C72619927%2C72640790%2C72647020%2C72648289%2C72658035%2C72671093%2C72686036%2C72729615%2C72749221%2C72757849%2C72760082%2C72766791%2C72783135&hl=en-NP&gl=np&cs=1&ssta=1&ts=CAEaRwopEicyJTB4MzllYjFiYTY4MDYyNTBmOToweGYwNGYyZDNkY2NjMzNhNzYSGhIUCgcI6A8QChgcEgcI6A8QChgdGAEyAhAA&qs=CAEyFENnc0k5dlNNNXR5bnk2ZndBUkFCOAJCCQl2OsPMPS1P8EIJCXY6w8w9LU_w&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwiwyIuBgbGJAxUAAAAAHQAAAAAQBQ" target="_blank">
+                                                        <h6>Google Review</h6>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /parallax_section_1-->
+
+        <!-- near by -->
+        <div class="nearby_section">
+            <div class="container margin_120_95">
+                <div class="title mb-2">
+                    <small data-cue="slideInUp">Top Spots</small>
+                    <h2 data-cue="slideInUp" data-delay="200">Nearby Landmarks</h2>
+                </div>
+                <div class="owl-carousel owl-theme carousel_item_3 rounded-img">
+                    <div class="item" data-cues="slideInUp" data-delay="300">
+                        <a href="https://maps.app.goo.gl/GHF6SWZqVj9CTgxg7" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image"
+                                    data-background="url(grand_assets/image/nearby/cricket.jpg)"></div>
+                                <div class="info">
+                                    <h3>Mulpani Cricket Stadium</h3>
+                                    <small>220m</small>
+                                    <span>Get Direction</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="item" data-cues="slideInUp" data-delay="300">
+                        <a href="https://maps.app.goo.gl/ifVKrfxxminGVM5y8" target="_blank" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image"
+                                    data-background="url(grand_assets/image/nearby/boudanath.jpg)"></div>
+                                <div class="info">
+                                    <h3>Boudhanath Stupa</h3>
+                                    <small>4 km</small>
+                                    <span>Get Direction</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="item" data-cues="slideInUp" data-delay="300">
+                        <a href="https://maps.app.goo.gl/Ed7mgJcr9Q4mSmeK8" target="_blank" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image"
+                                    data-background="url(grand_assets/image/nearby/monastry.jpg)"></div>
+                                <div class="info">
+                                    <h3>Kapan Monastery</h3>
+                                    <small>5.7 km</small>
+                                    <span>Get Direction</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- near by end -->
+    </main>
+    <footer class="revealed footer_wrapper">
+        <!-- ajax load -->
+    </footer>
+    <div class="whats_app">
+        <a href="https://wa.me/+9779801121560" target="_blank" class="whatsapp">
+            <i class="fa fa-whatsapp fa-2x"> </i>
+            </a>
+     </div>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+    <script src="js/common_functions.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+    <Script>
+        lightGallery(document.getElementById('lightgallery'), {
+        selector: 'a:not(.cloned a)'
+    })
+      </Script>
+
+</body>
+
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Grand Norling">
+    <title>Grand Norling</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="grand_assets/image/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="grand_assets/image/fav.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+
+<body class="datepicker_mobile_full">
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <!-- header  -->
+    <div class="header_wrapper">
+        <header class="reveal_header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <a href="index.html" class="logo_normal"><img src="grand_assets/image/logo.png" width="160"
+                                alt=""></a>
+                        <a href="index.html" class="logo_sticky"><img src="grand_assets/image/logo.png" width="80"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="hamburger_2 open_close_nav_panel">
+                                        <div class="hamburger__box">
+                                            <div class="hamburger__inner"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- floating book now -->
+            <a href="https://www.norlingresort.com/result.php?hotel_code=FeNRk5" id="book__now" class="btn_1 btn_scrollto" target="_blank">Book a room</a>
+            <a href="https://www.norlingresort.com/booking" id="book__now_1" class="btn_1 btn_scrollto" target="_blank">Book a hall</a>
+            <!-- floating book now end -->
+        </header>
+        <!-- header  end -->
+        <div class="nav_panel">
+            <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+            <div class="logo_panel"><img src="grand_assets/image/logo.png" width="80" alt=""></div>
+            <div class="sidebar-navigation">
+                <nav>
+                    <a href="">Home</a>
+                    <ul class="level-1">
+                        <li class="parents"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="parent"><a href="#">Stay</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#0">Back</a></li>
+                                <li><a href="cottage.html">Cottage Room</a></li>
+                                <li><a href="standard.html">Standard Room</a></li>
+                                <li><a href="deluxe.html">Deluxe Room</a></li>
+                                <li><a href="suite.html">Suite Room</a></li>
+                                <li><a href="luxury.html">Luxury Suite Room</a></li>
+                                <li><a href="stay.html">View All Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="dine.html">Dine</a></li>
+                        <li class="parent"><a href="#">Meeting & Events</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#">Back</a></li>
+                                <li><a href="tara.html">Tara Hall</a></li>
+                                <li><a href="norling.html">Norling Hall</a></li>
+                                <li><a href="ganesh.html">Ganesh Hall</a></li>
+                                <li><a href="rose.html">Rose Garden</a></li>
+                                <li><a href="metho.html">Metho Garden</a></li>
+                                <li><a href="meetinglisting.html">View All Halls</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                    <div class="panel_footer">
+                        <div class="phone_element"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977-01-4910296</span></a></div>
+                    </div>
+                    <!-- /panel_footer -->
+                </nav>
+            </div>
+            <!-- /sidebar-navigation -->
+        </div>
+    </div>
+
+    <main>
+        <div id="carousel-home">
+            <div class="owl-carousel owl-theme kenburns">
+                <div class="owl-slide background-image cover" data-background="url(grand_assets/image/banner/new/facilities1.jpg)">
+                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                    </div>
+                </div>
+                <!--/owl-slide-->
+                <div class="owl-slide background-image cover" data-background="url(grand_assets/image/banner/new/facilities2.jpg)">
+                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                    </div>
+                </div>
+                <!--/owl-slide-->
+                <div class="owl-slide background-image cover" data-background="url(grand_assets/image/banner/new/facilities3.jpg)">
+                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                    </div>
+                    <!--/owl-slide-->
+                </div>
+            </div>
+            <div class="mouse_wp">
+                <a href="#first_section" class="btn_scrollto">
+                    <div class="mouse"></div>
+                </a>
+            </div>
+            <!-- / mouse -->
+             <!-- text title -->
+             <h1 class="owl-slide-animated owl-slide-title-2  meeting_halls text-uppercase">Facilities</h1>
+             <!-- text title end -->
+        </div>
+        <!--/carousel-->
+
+        <section class="facilities-icons margin_120_95">
+            <div class="container">
+        <div class="row justify-content-lg-center">
+            <div class="col-lg-10">
+                <p class="text-center">At Grand Norling Hotel’s Resort, we provide a variety of outstanding facilities to elevate your experience. Indulge in our luxurious accommodations and savor exquisite dining options tailored to satisfy every palate. Our flexible event spaces are ideal for unforgettable gatherings, whether for business or celebration. Unwind in our beautifully landscaped gardens or relax by the pool, all while enjoying breathtaking views of the Himalayas. With unparalleled hospitality and top-notch amenities, your stay promises to be both delightful and memorable.</p>
+            </div>
+        </div>
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/bQDYI-flights.png">
+                            <h6>Airport pickup & drop (on charge)</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/JIse4-welcome-drink.png">
+                            <h6>Welcome drinks on arrival</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/jaQ2Q-wifi.png">
+                            <h6>High-speed Wi-Fi</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/asWuz-bell-boy.png">
+                            <h6>Concierge Service</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/DUpc1-red-carpet.png">
+                            <h6>Special Events</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/qkUi8-acc.png">
+                            <h6>Accommodation</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/BIP2d-room-service.png">
+                            <h6>Room Service</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/VoUUY-room-service-(1).png">
+                            <h6>Restaurant & Bar</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/HeDrI-pool.png">
+                            <h6>Swimming Pool</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/tCS2L-parking-area.png">
+                            <h6>Ample Parking</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/j066c-eee.png">
+                            <h6>Safe Deposit Locker</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/jBkJw-elect.png">
+                            <h6>Electricity Backup</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/sx5Qn-newspaper.png">
+                            <h6>Daily Newspaper</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/9X0QQ-vacuum-cleaner.png">
+                            <h6>Daily Housekeeping</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/XoM6D-medical-chechup.png">
+                            <h6>Doctor on Call</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/0idma-washing-machine.png">
+                            <h6>Laundry Service</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/Tp72o-cctv-camera.png">
+                            <h6>CCTV Security</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/JwVog-golf-field.png">
+                            <h6>Golf course view</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/hpeGN-waterdrop.png">
+                            <h6>Hot & Cold Water</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/VRF9p-bathtub.png">
+                            <h6>Bathtub</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/ExUll-fire-extinguisher.png">
+                            <h6>Fire Extinguishers</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/XXO0J-destination.png">
+                            <h6>Travel Service</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="faci-icons"> <img src="grand_assets/image/icons/l1Ysg-credit.png">
+                            <h6>Cards accepted</h6>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+      <!-- /container -->
+
+    </main>
+
+    <footer class="revealed footer_wrapper">
+        <!-- ajax load -->
+    </footer>
+    <div class="whats_app">
+        <a href="https://wa.me/+977-9801121560" target="_blank" class="whatsapp">
+            <i class="fa fa-whatsapp fa-2x"> </i>
+            </a>
+     </div>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+
+<!-- COMMON SCRIPTS -->
+<script src="js/common_scripts.js"></script>
+<script src="js/common_functions.js"></script>
+<script src="phpmailer/validate.js"></script>
+
+<!-- SPECIFIC SCRIPTS -->
+<script src="js/slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Grand Norling">
+    <title>Grand Norling</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="grand_assets/image/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="grand_assets/image/fav.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+
+<body class="datepicker_mobile_full">
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <!-- header  -->
+    <div class="header_wrapper">
+        <header class="reveal_header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <a href="index.html" class="logo_normal"><img src="grand_assets/image/logo.png" width="160"
+                                alt=""></a>
+                        <a href="index.html" class="logo_sticky"><img src="grand_assets/image/logo.png" width="80"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="hamburger_2 open_close_nav_panel">
+                                        <div class="hamburger__box">
+                                            <div class="hamburger__inner"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- floating book now -->
+            <a href="https://www.norlingresort.com/result.php?hotel_code=FeNRk5" id="book__now" class="btn_1 btn_scrollto" target="_blank">Book a room</a>
+            <a href="https://mayurstay.com/grandnorling/result.php?hotel_code=FeNRk5" id="book__now_1" class="btn_1 btn_scrollto" target="_blank">Book a hall</a>
+            <!-- floating book now end -->
+        </header>
+        <!-- header  end -->
+        <div class="nav_panel">
+            <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+            <div class="logo_panel"><img src="grand_assets/image/logo.png" width="80" alt=""></div>
+            <div class="sidebar-navigation">
+                <nav>
+                    <a href="">Home</a>
+                    <ul class="level-1">
+                        <li class="parents"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="parent"><a href="#">Stay</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#0">Back</a></li>
+                                <li><a href="cottage.html">Cottage Room</a></li>
+                                <li><a href="standard.html">Standard Room</a></li>
+                                <li><a href="deluxe.html">Deluxe Room</a></li>
+                                <li><a href="suite.html">Suite Room</a></li>
+                                <li><a href="luxury.html">Luxury Suite Room</a></li>
+                                <li><a href="stay.html">View All Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="dine.html">Dine</a></li>
+                        <li class="parent"><a href="#">Meeting & Events</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#">Back</a></li>
+                                <li><a href="tara.html">Tara Hall</a></li>
+                                <li><a href="norling.html">Norling Hall</a></li>
+                                <li><a href="ganesh.html">Ganesh Hall</a></li>
+                                <li><a href="rose.html">Rose Garden</a></li>
+                                <li><a href="metho.html">Metho Garden</a></li>
+                                <li><a href="meetinglisting.html">View All Halls</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                    <div class="panel_footer">
+                        <div class="phone_element"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977-01-4910296</span></a></div>
+                    </div>
+                    <!-- /panel_footer -->
+                </nav>
+            </div>
+            <!-- /sidebar-navigation -->
+        </div>
+    </div>
+    <main>
+        <div class="hero medium-height jarallax" data-jarallax data-speed="0.2">
+            <img class="jarallax-img" src="grand_assets/image/banner/cottage.jpg" alt="">
+            <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                <div class="container">
+                    <h1 class="slide-animated two">Rooms & Suites</h1>
+                </div>
+            </div>
+        </div>
+        <!-- /Background Img Parallax -->
+
+        <div class="container margin_120_0 dining_carousel_arrow">
+            <div class="row_list_version_2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-xl-8">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a data-fslightbox="gallery_1" data-type="image" href="grand_assets/image/rooms/cottage1.jpg"><img src="grand_assets/image/rooms/cottage1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a data-fslightbox="gallery_1" data-type="image" href="grand_assets/image/rooms/cottage1.jpg"><img src="grand_assets/image/rooms/cottage1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>Starting Price $60/night</small>
+                            <a href="cottage.html" target="_blank">
+                                <h2>Cottage Room</h2>
+                            </a>
+                            <p>Uncover the charm of our Cottage Room, thoughtfully designed for the modern traveler seeking both comfort and elegance. This cozy retreat offers a perfect blend of style and affordability, ensuring a peaceful, relaxing stay. Enjoy an intimate ambiance that invites you to unwind and rejuvenate. Escape to a charming haven that balances luxury with value. Reserve your stay now for a delightful experience.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-people-fill"></i> 2 Adult + 1 Child
+                                    </li>
+                                    <li>
+                                        <i class="customicon-double-bed"></i>Bed: King size
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box_item_footer d-flex align-items-center justify-content-between">
+                                <a href="https://mayurstay.com/grandnorling/result.php?hotel_code=FeNRk5" class="btn_4 learn-more">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Book Now</span>
+                                </a>
+                                <a href="cottage.html" class="animated_link">
+                                    <strong>Details</strong>
+                                </a>
+                            </div>
+                            <!-- /box_item_footer -->
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /col -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /row_list -->
+
+            <div class="row_list_version_2 inverted">
+                <div class="row g-0 align-items-center">
+                    <div class="col-xl-8 order-xl-2">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a data-fslightbox="gallery_2" data-type="image" href="grand_assets/image/rooms/standard1.jpg"><img src="grand_assets/image/rooms/standard1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a data-fslightbox="gallery_2" data-type="image" href="grand_assets/image/rooms/standard1.jpg"><img src="grand_assets/image/rooms/standard1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                    </div>
+                    <div class="col-xl-4 order-xl-1">
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>Starting Price $ 80/night</small>
+                            <a href="standard.html" target="_blank">
+                                <h2>Standard Room</h2>
+                            </a>
+                            <p>Experience the refined comfort of our Standard Room,  designed for the discerning traveler. With sleek, modern touches and luxurious details, this room offers a perfect blend of style and serenity. Enjoy the convenience of our Bed and Breakfast plan, combining indulgence with unbeatable value. Relax in a tranquil retreat tailored for elegance and ease. Book now for an exceptional stay at an irresistible price.
+                            </p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-people-fill"></i> 2 Adult
+                                    </li>
+                                    <li>
+                                        <i class="customicon-double-bed"></i>Bed: Single
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box_item_footer d-flex align-items-center justify-content-between">
+                                <a href="https://mayurstay.com/grandnorling/result.php?hotel_code=FeNRk5" class="btn_4 learn-more">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Book Now</span>
+                                </a>
+                                <a href="standard.html" class="animated_link">
+                                    <strong>Details</strong>
+                                </a>
+                            </div>
+                            <!-- /box_item_footer -->
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /col -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /row_list -->
+
+            <div class="row_list_version_2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-xl-8">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a data-fslightbox="gallery_3" data-type="image" href="grand_assets/image/rooms/deluxe1.jpg"><img src="grand_assets/image/rooms/deluxe1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a data-fslightbox="gallery_3" data-type="image" href="grand_assets/image/rooms/deluxe1.jpg"><img src="grand_assets/image/rooms/deluxe1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>Starting Price $ 100/night</small>
+                            <a href="deluxe.html" target="_blank">
+                                <h2>Deluxe Room</h2>
+                            </a>
+                            <p>Step into the luxurious comfort of our Deluxe Room, designed to offer a perfect mix of modern amenities and sophisticated style. This spacious retreat invites you to relax and unwind in a serene atmosphere, crafted for your ultimate comfort. Experience the elegance and tranquility that define every stay. Your ideal getaway is just a reservation away</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-people-fill"></i> 2 Adult
+                                    </li>
+                                    <li>
+                                        <i class="customicon-double-bed"></i>Bed: Double
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box_item_footer d-flex align-items-center justify-content-between">
+                                <a href="https://mayurstay.com/grandnorling/result.php?hotel_code=FeNRk5" class="btn_4 learn-more">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Book Now</span>
+                                </a>
+                                <a href="deluxe.html" class="animated_link">
+                                    <strong>Details</strong>
+                                </a>
+                            </div>
+                            <!-- /box_item_footer -->
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /col -->
+                </div>
+                <!-- /row -->
+            </div>
+
+            <div class="row_list_version_2 inverted">
+                <div class="row g-0 align-items-center">
+                    <div class="col-xl-8 order-xl-2">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a data-fslightbox="gallery_2" data-type="image" href="grand_assets/image/rooms/suite1.jpg"><img src="grand_assets/image/rooms/suite1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a data-fslightbox="gallery_2" data-type="image" href="grand_assets/image/rooms/suite1.jpg"><img src="grand_assets/image/rooms/suite1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                    </div>
+                    <div class="col-xl-4 order-xl-1">
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>Starting Price $ 150/night</small>
+                            <a href="suite.html" target="_blank">
+                                <h2>Suite Room</h2>
+                            </a>
+                            <p>Indulge in the ultimate luxury with our Suite Room, perfect for individuals or families seeking spacious comfort. Featuring a  living area, this room offers an elevated experience of relaxation and style. Immerse yourself in unmatched elegance and modern sophistication. Discover a stay where every detail is designed for your comfort. Reserve now and step into a world of refined luxury.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-people-fill"></i> 2 Adult + 1 Child
+                                    </li>
+                                    <li>
+                                        <i class="customicon-double-bed"></i>Bed: King size
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box_item_footer d-flex align-items-center justify-content-between">
+                                <a href="https://mayurstay.com/grandnorling/result.php?hotel_code=FeNRk5" class="btn_4 learn-more">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Book Now</span>
+                                </a>
+                                <a href="suite.html" class="animated_link">
+                                    <strong>Details</strong>
+                                </a>
+                            </div>
+                            <!-- /box_item_footer -->
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /col -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /row_list -->
+
+            <div class="row_list_version_2 pb-5">
+                <div class="row g-0 align-items-center">
+                    <div class="col-xl-8">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a data-fslightbox="gallery_3" data-type="image" href="grand_assets/image/rooms/luxury1.jpg"><img src="grand_assets/image/rooms/luxury1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a data-fslightbox="gallery_3" data-type="image" href="grand_assets/image/rooms/luxury1.jpg"><img src="grand_assets/image/rooms/luxury1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>Starting Price $ 150/night</small>
+                            <a href="luxury.html" target="_blank">
+                                <h2>Luxury Suite Room</h2>
+                            </a>
+                            <p>Unwind in the serene elegance of our Luxury Queen Room, where Himalayan charm meets modern sophistication. Featuring rich wooden floors, handcrafted Nepali terracotta tiles, and stone accents, each room is a masterpiece of comfort and style. Immerse yourself in a luxurious retreat that captures the essence of the Himalayas. Discover a perfect blend of tradition and elegance.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-people-fill"></i> 2 Adult + 1 Child
+                                    </li>
+                                    <li>
+                                        <i class="customicon-double-bed"></i>Bed: King size
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box_item_footer d-flex align-items-center justify-content-between">
+                                <a href="https://mayurstay.com/grandnorling/result.php?hotel_code=FeNRk5" class="btn_4 learn-more">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Book Now</span>
+                                </a>
+                                <a href="luxury.html" class="animated_link">
+                                    <strong>Details</strong>
+                                </a>
+                            </div>
+                            <!-- /box_item_footer -->
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /col -->
+                </div>
+                <!-- /row -->
+            </div>
+
+
+
+        </div>
+        <!-- /container -->
+
+    </main>
+
+    <footer class="revealed footer_wrapper">
+        <!-- ajax load -->
+    </footer>
+    <div class="whats_app">
+        <a href="https://wa.me/+977-9801121560" target="_blank" class="whatsapp">
+            <i class="fa fa-whatsapp fa-2x"> </i>
+            </a>
+     </div>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+<!-- COMMON SCRIPTS -->
+<script src="js/common_scripts.js"></script>
+<script src="js/common_functions.js"></script>
+<script src="js/datepicker_inline.js"></script>
+<script src="phpmailer/validate.js"></script>
+
+</body>
+</html>

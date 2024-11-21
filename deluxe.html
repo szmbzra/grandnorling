@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Grand Norling">
+    <title>Grand Norling</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="grand_assets/image/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="grand_assets/image/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="grand_assets/image/fav.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+
+<body class="datepicker_mobile_full">
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <!-- header  -->
+    <div class="header_wrapper">
+        <header class="reveal_header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <a href="index.html" class="logo_normal"><img src="grand_assets/image/logo.png" width="160"
+                                alt=""></a>
+                        <a href="index.html" class="logo_sticky"><img src="grand_assets/image/logo.png" width="80"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="hamburger_2 open_close_nav_panel">
+                                        <div class="hamburger__box">
+                                            <div class="hamburger__inner"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- floating book now -->
+            <a href="https://www.norlingresort.com/result.php?hotel_code=FeNRk5" id="book__now" class="btn_1 btn_scrollto" target="_blank">Book a room</a>
+            <a href="https://www.norlingresort.com/booking" id="book__now_1" class="btn_1 btn_scrollto" target="_blank">Book a hall</a>
+            <!-- floating book now end -->
+        </header>
+        <!-- header  end -->
+        <div class="nav_panel">
+            <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+            <div class="logo_panel"><img src="grand_assets/image/logo.png" width="80" alt=""></div>
+            <div class="sidebar-navigation">
+                <nav>
+                    <a href="">Home</a>
+                    <ul class="level-1">
+                        <li class="parents"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="parent"><a href="#">Stay</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#0">Back</a></li>
+                                <li><a href="cottage.html">Cottage Room</a></li>
+                                <li><a href="standard.html">Standard Room</a></li>
+                                <li><a href="deluxe.html">Deluxe Room</a></li>
+                                <li><a href="suite.html">Suite Room</a></li>
+                                <li><a href="luxury.html">Luxury Suite Room</a></li>
+                                <li><a href="stay.html">View All Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="dine.html">Dine</a></li>
+                        <li class="parent"><a href="#">Meeting & Events</a>
+                            <ul class="level-2">
+                                <li class="back"><a href="#">Back</a></li>
+                                <li><a href="tara.html">Tara Hall</a></li>
+                                <li><a href="norling.html">Norling Hall</a></li>
+                                <li><a href="ganesh.html">Ganesh Hall</a></li>
+                                <li><a href="rose.html">Rose Garden</a></li>
+                                <li><a href="metho.html">Metho Garden</a></li>
+                                <li><a href="meetinglisting.html">View All Halls</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                    <div class="panel_footer">
+                        <div class="phone_element"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977-01-4910296</span></a></div>
+                    </div>
+                    <!-- /panel_footer -->
+                </nav>
+            </div>
+            <!-- /sidebar-navigation -->
+        </div>
+    </div>
+<main>
+
+        <div class="hero full-height jarallax rooms__dtails" data-jarallax data-speed="0.2">
+            <img class="jarallax-img kenburns" src="grand_assets/image/banner/deluxe.jpg" alt="">
+            <div class="wrapper opacity-mask d-flex align-items-center  text-center animate_hero"
+                data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h1 class="slide-animated two">Deluxe Room</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="mouse_wp slide-animated four">
+                    <a href="#first_section" class="btn_explore">
+                        <div class="mouse"></div>
+                    </a>
+                </div>
+                <!-- / mouse -->
+            </div>
+        </div>
+        <!-- /Background Img Parallax -->
+
+        <div class="my-5" id="first_section">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-12">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-10">
+            <p class="text-center">Step into the luxurious comfort of our Deluxe Room, designed to offer a perfect mix of modern amenities and sophisticated style. This spacious retreat invites you to relax and unwind in a serene atmosphere, crafted for your ultimate comfort. Experience the elegance and tranquility that define every stay. Your ideal getaway is just a reservation away.</p>
+            <div class="room_icons my-5">
+                 <ul class="d-flex gap-5 justify-content-center list-unstyled">
+                    <li class="d-flex gap-1 align-items-center">
+                        <p class="mb-0"><b>Occupancy:</b> 2 Adult + 1 Child</p>
+                    </li>
+                    <li class="d-flex gap-1 align-items-center">
+                        <p class="mb-0"><b>Price:</b> Starting $20 /Night</p>
+                    </li>
+                    <li class="d-flex gap-1 align-items-center">
+                       <p class="mb-0"><b>Bed:</b> King Size</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="col-md-12">
+                 <!-- booking form -->
+                 <div class="booking__form_rooms">
+                    <!-- book now -->
+                    <div class="book_now position-static">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8">
+                                <form action="result.php" method="GET" target="_blank" >
+                                    <input type="hidden" name="hotel_code" value="FeNRk5">
+                                    <div class="row g-3 booking_form">
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" id="checkin" name="hotel_check_in"
+                                                    placeholder="Check in" readonly="readonly">
+                                                <i class="bi bi-calendar2"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" id="checkout" name="hotel_check_out"
+                                                    placeholder="Check Out" readonly="readonly">
+                                                <i class="bi bi-calendar2"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <input type="submit" class="btn_search" value="Check Availability">
+                                        </div>
+                                    </div>
+                                   </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- book now end -->
+
+      </div>
+     <!-- booking form end -->
+ </div>
+                    <div class="col-lg-12 mt-5" data-cue="fadeIn">
+                        <div class="room_facilities_list" >
+                            <h5 class="mt-4 my-5 text-center">Room Amenities</h5>
+                            <div class="row gap-5 justify-content-lg-center">
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/y3MiZ-wifi.png">
+                                        <p>Complimentary Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/zLE2n-tea.png">
+                                        <p>Tea | Coffee
+                                      Maker</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/s7oX7-air-conditioner.png">
+                                        <p>Air Conditioner</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/NPS9K-005-smoking.png">  <p>Non
+                                       Smoking</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/MipwZ-shower.png"> <p>
+                                            Hot &amp;
+                                            Cold Shower
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/Pq9ak-wedding-dinner.png">
+                                        <p>Ambience</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/uAEJw-towel.png">
+                                        <p> Hand Towels</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/MZRtW-008-ironing.png"><p>
+                                             Iron  and iron board
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/H7mzA-hairdryer.png"> <p>
+                                            Hair
+                                            Dryer
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/BgjpX-toilet.png"> <p>
+                                            Private
+                                            Bathroom
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/2GaGs-jkatr-household.png">
+                                        <p>Housekeeping</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="room-amenities4">
+                                        <img src="grand_assets/room_icons/szLol-w3uvb-telephone.png">
+                                        <p>Telephone</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- rooms -->
+        <div class="container-fluid p-lg-0">
+            <div data-cues="zoomIn">
+                <div class="owl-carousel owl-theme carousel_item_centered rooms_text carousel_items_img kenburns rounded-img">
+                    <div class="item position-relative">
+                        <img src="grand_assets/image/rooms/deluxe/deluxe-204.jpg" alt="">
+                 <div class="text_title">
+                    <h1 class="position-absolute">
+                        Deluxe 204
+                    </h1>
+                 </div>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="grand_assets/image/rooms/deluxe/deluxe-301.jpg" alt="">
+                        <h1 class="position-absolute">
+                            Deluxe 301
+                        </h1>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="grand_assets/image/rooms/deluxe/deluxe-r-10.jpg" alt="">
+                        <h1 class="position-absolute">
+                            Deluxe R 10
+                        </h1>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="grand_assets/image/rooms/deluxe/deluxe-r-205.jpg" alt="">
+                        <h1 class="position-absolute">
+                            Deluxe R 205
+                        </h1>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="grand_assets/image/rooms/deluxe/deluxe-r-302.jpg" alt="">
+                        <h1 class="position-absolute">
+                            Deluxe R 302
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- rooms end -->
+
+        <div class="container margin_120_95">
+            <div data-cue="slideInUp">
+                <div class="title">
+                    <h2>Other Rooms</h2>
+                </div>
+                <div class="owl-carousel other_rooms">
+                    <div class="col-xl-12 col-lg-12">
+                        <a href="standard.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image" data-background="url(grand_assets/image/rooms/standard.jpg)"></div>
+                                <div class="info">
+                                    <h3>Standard Room</h3>
+                                    <span>View more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xl-12 col-lg-12">
+                        <a href="room-list-1.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image" data-background="url(grand_assets/image/rooms/cottage.jpg)"></div>
+                                <div class="info">
+                                    <h3>Cottage Room</h3>
+                                    <span>View more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xl-12 col-lg-12">
+                        <a href="suite.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image" data-background="url(grand_assets/image/rooms/suite.jpg)"></div>
+                                <div class="info">
+                                    <h3>Suite Room</h3>
+                                    <span>View more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xl-12 col-lg-12">
+                        <a href="luxury.html" class="box_cat_rooms">
+                            <figure>
+                                <div class="background-image" data-background="url(grand_assets/image/rooms/luxury.jpg)"></div>
+                                <div class="info">
+                                    <h3>Luxury Suite Room</h3>
+                                    <span>View more</span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <!-- /row-->
+            </div>
+        </div>
+        <!-- /bg_white -->
+
+        <!-- /container -->
+    </main>
+    <footer class="revealed footer_wrapper">
+        <!-- ajax load -->
+    </footer>
+
+    <div class="whats_app">
+        <a href="https://wa.me/+9779801121560" target="_blank" class="whatsapp">
+            <i class="fa fa-whatsapp fa-2x"> </i>
+            </a>
+     </div>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+    <script src="js/common_functions.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script>
+        // Progress bars animation
+        $(function () {
+            "use strict";
+            var $section = $('#reviews');
+            $(window).on('scroll', function (ev) {
+                var scrollOffset = $(window).scrollTop();
+                var containerOffset = $section.offset().top - window.innerHeight;
+                if (scrollOffset > containerOffset) {
+                    $(".progress-bar").each(function () {
+                        var each_bar_width = $(this).attr('aria-valuenow');
+                        $(this).width(each_bar_width + '%');
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
